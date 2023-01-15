@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- navbar  -->
+		<nav>Fetching Data With The AXIOS</nav>
+		<!-- buttons -->
+		<div class="wrapper">
+			<button id="text">Get Text</button>
+			<button id="json">Get JSON</button>
+			<button id="api">Get API Data</button>
+		</div>
+		<!-- display data cards  -->
+		<div class="card-wrapper">
+			<div class="column">
+				<div class="card-header">Text Data</div>
+				<div id="textCard" class="card-content"></div>
+			</div>
+			<div class="column">
+				<div class="card-header">JSON Data</div>
+				<div id="JSONCard" class="card-content"></div>
+			</div>
+			<div class="column">
+				<div class="card-header">API Data</div>
+				<div id="APICard" class="card-content"></div>
+			</div>
+		</div>
+
+		<!-- add javascript -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"
+			integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./app.js"></script>
+	</body>
+</html>

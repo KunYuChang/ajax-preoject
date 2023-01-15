@@ -1,0 +1,107 @@
+/* ****** NAVBAR ****** */
+
+nav {
+    display: block;
+    background-color: #333;
+    color: rgb(233, 233, 233);
+    font-family: Verdana;
+    line-height: 3em;
+    padding-left: 2em;
+}
+
+/* ****** BUTTONS ****** */
+
+.wrapper {
+    text-align: center;
+    margin-top: 2em;
+}
+
+button {
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.4s ease 0s;
+}
+
+button#get {
+    background: #63c971;
+}
+
+button#post {
+    background: #80c9f3;
+}
+
+button#put {
+    background: #c763c2;
+}
+
+button#delete {
+    background: #ed3330;
+}
+
+button:hover {
+    background: #434343;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+/* ****** PARAGRAPH ****** */
+p {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana;
+    width: 50%;
+    margin-bottom: 1em; 
+    margin-top: 1em; 
+}
+
+p.get {
+    color: rgb(181, 178, 178);
+    background-color: #151515;
+}
+
+p.post {
+    color: green;
+    background-color: #63c971;
+}
+
+p.put {
+    color: rgb(255, 166, 14);
+    background-color: #8d3600;
+}
+
+p.delete {
+    color: rgb(255, 63, 63);
+    background-color: #610015;
+}
+
+/* ****** TABLE ****** */
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    /* center our table with the margin property  */
+    margin: auto;
+}
+
+th, td {
+    font-family: Verdana;
+    /* use text-align to left-align the headings */
+    text-align: left; 
+    /* reduce default font-size from 16px to 12px */
+    font-size: 12px;
+    padding: 10px;
+}
+
+th {
+    background-color: #7691ab;
+    color: white;
+}
+
+td {
+    background-color: rgb(238, 238, 238);
+}

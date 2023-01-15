@@ -1,0 +1,85 @@
+/* ****** NAVBAR ****** */
+
+nav {
+    display: block;
+    background-color: #333;
+    height: 3em;
+    color: rgb(233, 233, 233);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* If the line-height property is greater than the value of the font-size for an element, the difference (called "leading") is cut in half and distributed evenly on the top and bottom. */
+    line-height: 3em;
+    padding-left: 1em;
+}
+
+/* ****** BUTTONS ****** */
+
+.wrapper {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+button {
+    margin: 5px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+/* ****** RESULT CARDS ****** */
+div.card-wrapper {
+    width: 80%; 
+}
+
+/* Float 3 columns side by side */
+.column {
+    margin: 10px; 
+    width: 30%;
+    float: left;
+    /* padding: 0 10px; */
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.card-wrapper {
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* Style the cards */
+.card-header {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+.card-content {
+    /* this adds the "card" effect */
+    padding: 16px;
+    background: rgb(179, 179, 179);
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
